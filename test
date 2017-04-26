@@ -1,0 +1,456 @@
+minion.saltstack.com:
+----------
+          ID: zabbix_agent
+    Function: pkg.installed
+        Name: zabbix22-agent
+      Result: True
+     Comment: Package zabbix22-agent is already installed.
+     Started: 14:30:34.066128
+    Duration: 765.797 ms
+     Changes:   
+----------
+          ID: zabbix_agent
+    Function: file.managed
+        Name: /etc/zabbix_agentd.conf
+      Result: True
+     Comment: File /etc/zabbix_agentd.conf is in the correct state
+     Started: 14:30:34.834886
+    Duration: 11.903 ms
+     Changes:   
+----------
+          ID: zabbix_agent
+    Function: service.running
+        Name: zabbix-agent
+      Result: True
+     Comment: Service zabbix-agent is already enabled, and is in the desired state
+     Started: 14:30:34.848431
+    Duration: 314.659 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: zlib-devel
+      Result: True
+     Comment: Package zlib-devel is already installed.
+     Started: 14:30:35.163330
+    Duration: 0.637 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: gcc
+      Result: True
+     Comment: Package gcc is already installed.
+     Started: 14:30:35.164060
+    Duration: 0.393 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: libpng-devel
+      Result: True
+     Comment: Package libpng-devel is already installed.
+     Started: 14:30:35.164534
+    Duration: 0.376 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: openssl
+      Result: True
+     Comment: Package openssl is already installed.
+     Started: 14:30:35.164990
+    Duration: 0.389 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: libxml2-devel
+      Result: True
+     Comment: Package libxml2-devel is already installed.
+     Started: 14:30:35.165460
+    Duration: 0.363 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: libcurl-devel
+      Result: True
+     Comment: Package libcurl-devel is already installed.
+     Started: 14:30:35.165902
+    Duration: 0.377 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: libcurl
+      Result: True
+     Comment: Package libcurl is already installed.
+     Started: 14:30:35.166361
+    Duration: 0.361 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: libjpeg-turbo
+      Result: True
+     Comment: Package libjpeg-turbo is already installed.
+     Started: 14:30:35.166817
+    Duration: 0.348 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: glibc
+      Result: True
+     Comment: Package glibc is already installed.
+     Started: 14:30:35.167272
+    Duration: 0.348 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: zlib
+      Result: True
+     Comment: Package zlib is already installed.
+     Started: 14:30:35.167716
+    Duration: 0.75 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: freetype
+      Result: True
+     Comment: Package freetype is already installed.
+     Started: 14:30:35.168572
+    Duration: 0.375 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: openssl-devel
+      Result: True
+     Comment: Package openssl-devel is already installed.
+     Started: 14:30:35.169030
+    Duration: 0.52 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: freetype-devel
+      Result: True
+     Comment: Package freetype-devel is already installed.
+     Started: 14:30:35.169641
+    Duration: 0.357 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: lbzip2
+      Result: True
+     Comment: Package lbzip2 is already installed.
+     Started: 14:30:35.170065
+    Duration: 0.369 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: libxml2
+      Result: True
+     Comment: Package libxml2 is already installed.
+     Started: 14:30:35.170512
+    Duration: 0.374 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: libpng
+      Result: True
+     Comment: Package libpng is already installed.
+     Started: 14:30:35.170964
+    Duration: 0.368 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: libjpeg-turbo-devel
+      Result: True
+     Comment: Package libjpeg-turbo-devel is already installed.
+     Started: 14:30:35.171410
+    Duration: 0.395 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: autoconf
+      Result: True
+     Comment: Package autoconf is already installed.
+     Started: 14:30:35.171887
+    Duration: 0.374 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: gcc-c++
+      Result: True
+     Comment: Package gcc-c++ is already installed.
+     Started: 14:30:35.172339
+    Duration: 0.343 ms
+     Changes:   
+----------
+          ID: php-depend
+    Function: pkg.installed
+        Name: make
+      Result: True
+     Comment: Package make is already installed.
+     Started: 14:30:35.172796
+    Duration: 0.35 ms
+     Changes:   
+----------
+          ID: www
+    Function: user.present
+      Result: True
+     Comment: User www is present and up to date
+     Started: 14:30:35.174674
+    Duration: 1.323 ms
+     Changes:   
+----------
+          ID: COPY_PHP-5.6_PKG
+    Function: file.managed
+        Name: /usr/local/src/php-5.6.23.tar.bz
+      Result: True
+     Comment: File /usr/local/src/php-5.6.23.tar.bz is in the correct state
+     Started: 14:30:35.176085
+    Duration: 62.17 ms
+     Changes:   
+----------
+          ID: COMPILE_PHP-5.6
+    Function: cmd.run
+        Name: cd /usr/local/src && tar xf php-5.6.23.tar.bz2 && cd php-5.6.23 && ./configure --prefix=/usr/local/php-fastcgi --with-mysql --with-jpeg-dir  --with-png-dir  --with-zlib  --enable-xml --with-libxml-dir  --with-curl --enable-bcmath --enable-shmop --enable-sysvsem --enable-inline-optimization --enable-mbregex --with-openssl --enable-mbstring --with-gd --enable-gd-native-ttf --enable-sockets --with-xmlrpc --enable-zip --enable-soap --disable-debug -enable-opcache --enable-zip --with-config-file-path=/usr/local/php-fastcgi/etc  --enable-fpm --with-fpm-user=www --with-fpm-group=www && make && make install
+      Result: False
+     Comment: Command "cd /usr/local/src && tar xf php-5.6.23.tar.bz2 && cd php-5.6.23 && ./configure --prefix=/usr/local/php-fastcgi --with-mysql --with-jpeg-dir  --with-png-dir  --with-zlib  --enable-xml --with-libxml-dir  --with-curl --enable-bcmath --enable-shmop --enable-sysvsem --enable-inline-optimization --enable-mbregex --with-openssl --enable-mbstring --with-gd --enable-gd-native-ttf --enable-sockets --with-xmlrpc --enable-zip --enable-soap --disable-debug -enable-opcache --enable-zip --with-config-file-path=/usr/local/php-fastcgi/etc  --enable-fpm --with-fpm-user=www --with-fpm-group=www && make && make install" run
+     Started: 14:30:35.239087
+    Duration: 19.062 ms
+     Changes:   
+              ----------
+              pid:
+                  50423
+              retcode:
+                  2
+              stderr:
+                  tar: php-5.6.23.tar.bz2: Cannot open: No such file or directory
+                  tar: Error is not recoverable: exiting now
+              stdout:
+----------
+          ID: COPY_PHP-5.6_CONF_FILE
+    Function: file.managed
+        Name: /usr/local/php-fastcgi/etc/php-fpm.conf
+      Result: False
+     Comment: Parent directory not present
+     Started: 14:30:35.258394
+    Duration: 5.405 ms
+     Changes:   
+----------
+          ID: COPY_PHP-5.6_START_SCRIPT
+    Function: file.managed
+        Name: /etc/init.d/php-fpm
+      Result: True
+     Comment: unless execution succeeded
+     Started: 14:30:35.263903
+    Duration: 88.084 ms
+     Changes:   
+----------
+          ID: START_PHP-5.6_SERVICE
+    Function: service.running
+        Name: php-fpm
+      Result: False
+     Comment: One or more requisite failed: php.php_fastcgi.COPY_PHP-5.6_CONF_FILE
+     Started: 
+    Duration: 
+     Changes:   
+----------
+          ID: mysql
+    Function: user.present
+      Result: True
+     Comment: User mysql is present and up to date
+     Started: 14:30:35.354246
+    Duration: 1.758 ms
+     Changes:   
+----------
+          ID: ADD_MYSQL-5.5_DATEDIR
+    Function: file.directory
+        Name: /mydata/data
+      Result: True
+     Comment: Directory /mydata/data is in the correct state
+     Started: 14:30:35.356096
+    Duration: 1.889 ms
+     Changes:   
+----------
+          ID: COPY_MYSQL-5.5_PKG
+    Function: file.managed
+        Name: /usr/local/src/mysql-5.5.49-linux2.6-x86_64.tar.gz
+      Result: True
+     Comment: File /usr/local/src/mysql-5.5.49-linux2.6-x86_64.tar.gz is in the correct state
+     Started: 14:30:35.358083
+    Duration: 804.649 ms
+     Changes:   
+----------
+          ID: COMPILE_MYSQL-5.5
+    Function: cmd.run
+        Name: cd /usr/local/src && tar xf mysql-5.5.49-linux2.6-x86_64.tar.gz && ln -s /usr/local/src/mysql-5.5.49-linux2.6-x86_64  /usr/local/mysql && cd /usr/local/mysql && chown -R mysql.mysql . && ./scripts/mysql_install_db --user=mysql  --datadir=/mydata/data
+      Result: True
+     Comment: unless execution succeeded
+     Started: 14:30:36.162888
+    Duration: 9.145 ms
+     Changes:   
+----------
+          ID: /etc/my.cnf
+    Function: file.managed
+      Result: True
+     Comment: File /etc/my.cnf is in the correct state
+     Started: 14:30:36.172233
+    Duration: 3.451 ms
+     Changes:   
+----------
+          ID: /etc/init.d/mysqld
+    Function: file.managed
+      Result: True
+     Comment: File /etc/init.d/mysqld is in the correct state
+     Started: 14:30:36.175797
+    Duration: 3.238 ms
+     Changes:   
+----------
+          ID: ADD_MYSQL-5.5_BIN_PATH
+    Function: cmd.run
+        Name: echo 'export PATH=$PATH:/usr/local/mysql/bin' > /etc/profile.d/mysql.sh && chmod +x /etc/profile.d/mysql.sh && . /etc/profile.d/mysql.sh
+      Result: True
+     Comment: unless execution succeeded
+     Started: 14:30:36.179171
+    Duration: 8.896 ms
+     Changes:   
+----------
+          ID: START_MYSQLD-5.5
+    Function: service.running
+        Name: mysqld
+      Result: True
+     Comment: Service mysqld is already enabled, and is in the desired state
+     Started: 14:30:36.189361
+    Duration: 335.15 ms
+     Changes:   
+----------
+          ID: INSTALL_BIND_DEPEND
+    Function: pkg.installed
+        Name: openssl
+      Result: True
+     Comment: Package openssl is already installed.
+     Started: 14:30:36.524714
+    Duration: 0.632 ms
+     Changes:   
+----------
+          ID: INSTALL_BIND_DEPEND
+    Function: pkg.installed
+        Name: openssl-devel
+      Result: True
+     Comment: Package openssl-devel is already installed.
+     Started: 14:30:36.525455
+    Duration: 0.376 ms
+     Changes:   
+----------
+          ID: named
+    Function: user.present
+      Result: True
+     Comment: User named is present and up to date
+     Started: 14:30:36.525956
+    Duration: 1.257 ms
+     Changes:   
+----------
+          ID: COPY_BIND-9.11_PKG
+    Function: file.managed
+        Name: /usr/local/src/bind-9.11.0-P1.tar.gz
+      Result: True
+     Comment: File /usr/local/src/bind-9.11.0-P1.tar.gz is in the correct state
+     Started: 14:30:36.527300
+    Duration: 46.301 ms
+     Changes:   
+----------
+          ID: COMPILE_BIND-9.11
+    Function: cmd.run
+        Name: cd /usr/local/src && tar xf bind-9.11.0-P1.tar.gz && cd bind-9.11.0-P1 && ./configure   --prefix=/usr/local/bind9  --with-dlz-mysql=/usr/local/mysql  --enable-threads=no --disable-openssl-version-check && make && make install
+      Result: True
+     Comment: unless execution succeeded
+     Started: 14:30:36.573734
+    Duration: 8.114 ms
+     Changes:   
+----------
+          ID: COPY_BIND-9.11_CONF_FILE
+    Function: file.managed
+        Name: /usr/local/bind9/etc/named.conf
+      Result: True
+     Comment: File /usr/local/bind9/etc/named.conf is in the correct state
+     Started: 14:30:36.582093
+    Duration: 10.432 ms
+     Changes:   
+----------
+          ID: GENERATE_KEY
+    Function: cmd.run
+        Name: cd /usr/local/bind9/sbin && ./rndc-confgen -a && ./rndc-confgen >> /usr/local/bind9/etc/named.conf
+      Result: True
+     Comment: unless execution succeeded
+     Started: 14:30:36.592668
+    Duration: 8.905 ms
+     Changes:   
+----------
+          ID: COPY_BIND-9.11_START_SCRIPT
+    Function: file.managed
+        Name: /etc/init.d/named
+      Result: True
+     Comment: File /etc/init.d/named is in the correct state
+     Started: 14:30:36.601776
+    Duration: 4.7 ms
+     Changes:   
+----------
+          ID: START_BIND_SERVICE
+    Function: service.running
+        Name: named
+      Result: False
+     Comment: Service named is already enabled, and is dead
+     Started: 14:30:36.607863
+    Duration: 552.921 ms
+     Changes:   
+              ----------
+              named:
+                  False
+----------
+          ID: NGINX_INSTALL
+    Function: pkg.installed
+        Name: nginx
+      Result: True
+     Comment: Package nginx is already installed.
+     Started: 14:30:37.161003
+    Duration: 0.853 ms
+     Changes:   
+----------
+          ID: COPY_NGINX_CONF_FILE
+    Function: file.managed
+        Name: /etc/nginx/nginx.conf
+      Result: True
+     Comment: File /etc/nginx/nginx.conf is in the correct state
+     Started: 14:30:37.162099
+    Duration: 4.09 ms
+     Changes:   
+----------
+          ID: START_NGINX_SERVICE
+    Function: service.running
+        Name: nginx
+      Result: True
+     Comment: Service nginx is already enabled, and is in the desired state
+     Started: 14:30:37.167196
+    Duration: 364.364 ms
+     Changes:   
+
+Summary
+-------------
+Succeeded: 45 (changed=2)
+Failed:     4
+-------------
+Total states run:     49
